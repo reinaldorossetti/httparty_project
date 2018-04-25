@@ -1,0 +1,19 @@
+{
+  "clientes": [
+    {
+      "cpf": "34034362332",
+      "endereco": "Mandalore",
+      "usuario": "Venonat",
+      "senha": "inicial7494",
+      "id": 10
+    },
+    {
+      "nome": "Miss Vaughn Beer",
+      "cpf": "26995576330",
+      "endereco": "Bespin",
+      "usuario": "Golduck",
+      "senha": "5734286745",
+      "id": 11
+    }
+  ]
+}
