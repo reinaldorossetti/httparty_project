@@ -1,5 +1,7 @@
 # Projeto usando o Httparty e Cucumber.
 
+A configuração (importe das gems) está dentro do **suport/env.rb** e a instância do Httparty está dentro do módulo Http, com isso eu elimino muito código desnecessário.
+
 Linux:
 
 1. Baixar o nodejs para linux, através do comando abaixo:
