@@ -54,5 +54,5 @@ json-server --watch lib/app.json
   ]
 }
 
-Versão 2.0, fork:
+Versão 2.0, fork da primeira versão do Bruno:
 https://github.com/brunobatista25/test_api_httparty_cucumber
