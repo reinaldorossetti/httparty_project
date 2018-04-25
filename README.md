@@ -2,7 +2,12 @@
 
 A configuração (importe das gems) está dentro do **suport/env.rb** e a instância do Httparty está dentro do módulo Http, com isso eu elimino muito código desnecessário.
 
-Linux:
+A Classe GlobalPage contém todas as função que é comum no projeto, assim não é repetida as mesmas no steps_definitions.
+
+Pra usar é somente chamar $GlobalPage, ela é instanciada somente uma vez no env.rb.
+
+
+**Linux:**
 
 1. Baixar o nodejs para linux, através do comando abaixo:
 url -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
@@ -13,16 +18,19 @@ sudo apt-get install jq nodejs curl -qy
 3. Realizar a instalação da API no nodejs:
 npm install -g json-server
 
-Mac:
+**Mac:**
+
 1. Baixar o npm , através do comando abaixo:
 brew install npm
 
 2. Realizar a instalação da API no nodejs:
 npm install -g json-server
 
-Windows:
+**Windows:**
 
 1. Instalar o nodejs para o windows.
+link: https://nodejs.org/en/download/
+
 2. Realizar a instalação da API no nodejs:
 npm install -g json-server
 
