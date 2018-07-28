@@ -13,7 +13,8 @@ Dado('que eu altere os parametros do meu cliente de um cliente específico') do
       usuario: @usuario_alterado,
       senha: @senha_alterada
   }.to_json
-  # pego um cliente aleatorio para ser alterado os dados.
+  
+  # pego o primeiro cliente no json para ser alterado.
   number = $GlobalPage.number
   get_cliente = Http.get "/#{number}"
   p "Cliente que vai ser alterado: #{get_cliente.body}"
