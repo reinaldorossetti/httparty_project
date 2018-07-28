@@ -4,7 +4,7 @@ A configuração (importe das gems) está dentro do **suport/env.rb** e a instâ
 
 A Classe GlobalPage contém todas as função que é comum no projeto, assim não é repetida as mesmas no steps_definitions.
 
-Pra usar é somente chamar $GlobalPage, ela é instanciada somente uma vez no env.rb.
+Pra usar as funções globais é somente chamar $GlobalPage, ela é instanciada somente uma vez no env.rb.
 
 # PASSO A PASSO
 
