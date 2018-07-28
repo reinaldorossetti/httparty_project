@@ -6,6 +6,34 @@ A Classe GlobalPage contém todas as função que é comum no projeto, assim nã
 
 Pra usar é somente chamar $GlobalPage, ela é instanciada somente uma vez no env.rb.
 
+# PASSO A PASSO
+
+**1 - Faça um clone no projeto no seu PC.**
+
+git clone https://github.com/reinaldorossetti/httparty_project.git
+
+**2 - Passo de entre na pasta do projeto**
+
+cd httparty_project/tests
+
+**3 - Passo instale as dependências**
+
+bundle install
+
+** Precisa instalar a gem, comando "gem install bundle", sem aspas duplas.
+
+**4 - Passo Acesse esse link para saber mais sobre como configurar a api:**
+
+https://github.com/thiagomarquessp/httpartyforall/blob/master/Fake_api.md
+
+**5- Passo rode o nosso projeto, abrar o terminal em tests e envie o comando abaixo:**
+
+cucumber 
+
+ou
+
+bundle exec cucumber
+
 
 **Linux:**
 
