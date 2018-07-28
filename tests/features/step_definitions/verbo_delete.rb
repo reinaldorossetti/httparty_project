@@ -1,9 +1,7 @@
 Dado('que eu envie um registro para delecao') do
-  number = $GlobalPage.number
+  number = $GlobalPage.number # pega o primeiro id da fila.
   p "Deletando cliente pelo id: #{number}"
-  body_delete = {
-      id: "#{number}",
-  }.to_json
+  body_delete = {id: "#{number}"}.to_json
   @delete = Http.delete "/#{number}", body: body_delete
 end
 
